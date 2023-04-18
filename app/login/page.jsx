@@ -6,7 +6,7 @@ const Login = () => {
     <>
       <div className="flex-1"></div>
       <form>
-        <div className="flex flex-col gap-4 max-w-sm mx-auto p-5 shadow-md shadow-blue-50 rounded-xl">
+        <div className="flex flex-col gap-4 max-w-sm mx-auto p-5 shadow-xl shadow-blue-100 rounded-xl bg-white">
           <h1 className="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
             Masuk ke aplikasi e-rapat
           </h1>

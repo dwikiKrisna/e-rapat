@@ -6,19 +6,19 @@ const layout = ({ children }) => {
     <>
       <div className="flex">
         <div className="p-5 ">
-          <h1 className="text-lg font-bold">Dashboard Menu</h1>
 
-          <ul className="menu bg-base-100 w-56">
+          <ul className="menu w-56">
             <li>
               <Link href="/dashboard"> 🏠 Home </Link>
             </li>
             <li>
               <Link href="/dashboard/settings">⚙️ Settings </Link>
             </li>
+          
           </ul>
         </div>
 
-        <div className="flex-1">{children}</div>
+        <div className="flex-1 p-5">{children}</div>
       </div>
     </>
   );

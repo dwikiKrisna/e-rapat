@@ -9,9 +9,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="flex flex-col min-h-screen ">
+      <body className="flex flex-col min-h-screen bg-slate-50">
         <section>
-          <div className="navbar bg-base-100 shadow-md shadow-blue-50">
+          <div className="navbar shadow-md shadow-blue-50 bg-white">
             <div className="flex-1">
               <Link href="/" className="btn btn-ghost normal-case text-xl">
                 💡e-rapat
@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
                 </li>
 
                 <li>
-                  <a>🗝️ Dashboard</a>
+                  <Link href='/dashboard'>🗝️ Dashboard</Link>
                 </li>
               </ul>
             </div>
