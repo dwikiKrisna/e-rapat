@@ -11,6 +11,7 @@ const layout = ({ children }) => {
             <li>
               <Link href="/dashboard"> 🏠 Home </Link>
             </li>
+            
             <li>
               <Link href="/dashboard/settings">⚙️ Settings </Link>
             </li>

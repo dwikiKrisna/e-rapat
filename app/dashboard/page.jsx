@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import TambahRapat from "./TambahRapat";
 
 const listRapat = [
   {
@@ -49,7 +50,7 @@ const Dashboard = () => {
 
       <div className="flex justify-between mt-10">
         {/* tambah rapat  */}
-        <button className="btn btn-primary">Tambah Rapat</button>
+        <TambahRapat/>
         {/* search */}
         <div className=" flex gap-3">
           <input
@@ -98,15 +99,22 @@ const Dashboard = () => {
                   <td className="px-6 py-4 ">
                     <Link
                       href="/presensi"
-                      className="font-medium text-blue-600 dark:text-blue-500 hover:underline mr-2"
+                      className="font-medium text-blue-600 hover:underline mr-2"
                     >
                       edit
                     </Link>
                     <Link
                       href="/presensi"
-                      className="font-medium text-red-600 dark:text-blue-500 hover:underline"
+                      className="font-medium text-red-600 hover:underline mr-2"
                     >
                       hapus
+                    </Link>
+
+                    <Link
+                      href="/presensi"
+                      className="font-medium text-gray-700 hover:underline"
+                    >
+                      rekap-presensi
                     </Link>
                   </td>
                 </tr>
